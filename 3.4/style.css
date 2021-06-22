@@ -1,6 +1,45 @@
+.breadcrumb {
+    margin: 3px;
+    padding-left: 1px;
+    padding-right: -50px;
+    max-width: 95%;
+}
+
+nav {
+    margin: none;
+    padding-right: 3px;
+}
+
 .breadcrumb li {
-    display:inline-block
+    display:inline-block;
+    width: 30%;
+    color:#F0CEA0;
+    background-color:rgba(243, 167, 18, 1);
+    padding-top: 50px;
+    text-align: center;
+    border-radius: 5%;
 }
 
 h1 {
+    color: #C7CDE6;
+    background-color: rgba(41, 51, 92, 0.9);
+    padding: 20px;
 }
+
+.main {
+    padding-left: 20px;
+    color: #534D41;
+}
+
+footer {
+    position:fixed;
+    vertical-align: bottom;
+    padding-left: 20px;
+    font-size: small;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*#F0CEA0 #534D41*/
